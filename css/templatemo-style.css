@@ -506,40 +506,6 @@ http://www.templatemo.com/tm-515-eatery
     transform: scale(1.2);
   }
 
-  .team-thumb .social-icon li a {
-    background: #292929;
-    border-radius: 100%;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    color: #d9d9d9;
-    font-size: 20px;
-    margin: 15px 5px 0 5px;
-  }
-
-  .team-thumb .team-item {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
-  }
-
-  .team-item h4 {
-    color: #ffffff;
-  }
-
-  .team-info p {
-    color: #bfbdbd;
-    font-size: 12px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    margin-top: 5px;
-  }
-
-
   /*---------------------------------------
       TESTIMONIAL             
   -----------------------------------------*/
