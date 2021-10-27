@@ -134,15 +134,15 @@
   transform: translateY(-50%);
 }
 .button-click {
-  background-color: #4CAF50; /* Green */
+  background-color: #add8e6; /* Green */
   border: none;
   color: white;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 12px;
   margin: 4px 2px;
   cursor: pointer;
 }
-.button4 {border-radius: 12px;}
+.button4 {border-radius: 8px;}
