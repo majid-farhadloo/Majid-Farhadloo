@@ -685,10 +685,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
 }
 #footer .social ul li {
   display: inline-block;
-  margin: 0 20px;
+  margin: 0 0px;
 }
 #footer .social i.fa {
-  font-size: 26px;
+  font-size: 30px;
   padding: 4px;
   color: #fff;
   transition: all 0.3s;
