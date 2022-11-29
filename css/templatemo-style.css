@@ -124,6 +124,7 @@ http://www.templatemo.com/tm-515-eatery
     text-align: center;
   }
 
+
   .about-image img,
   .team-thumb img {
     width: 100%;
@@ -435,7 +436,6 @@ http://www.templatemo.com/tm-515-eatery
   }
 
 
-
   /*---------------------------------------
       ABOUT
   -----------------------------------------*/
@@ -456,145 +456,16 @@ http://www.templatemo.com/tm-515-eatery
     position: absolute;
   }
 
-
-
   /*---------------------------------------
       TEAM
   -----------------------------------------*/
 
   #team {
-    background: #f9f9f9;
+    padding: 50px 0;
+    background: #f6f6f6;
+    margin-top: auto;
+    
   }
-
-  .team-thumb {
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-  }
-
-  .team-info {
-    padding: 10px 30px 20px 30px;
-  }
-
-  .team-thumb .team-hover {
-    position: absolute;
-    background: #1c1c1c;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    text-align: center;
-    opacity: 0;
-    transform: translateY(100%);
-    transition: 0.8s 0.1s;
-  }
-
-  .team-thumb:hover .team-hover {
-    position: relative;
-    opacity: 0.95;
-    transition-delay: 0.2s;
-    transform: translateY(0);
-  }
-
-  .team-thumb img {
-    transition: 0.5s 0.2s;
-  }
-
-  .team-thumb:hover img {
-    transform: scale(1.2);
-  }
-
-  .team-thumb .social-icon li a {
-    background: #292929;
-    border-radius: 100%;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    color: #d9d9d9;
-    font-size: 20px;
-    margin: 15px 5px 0 5px;
-  }
-
-  .team-thumb .team-item {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
-  }
-
-  .team-item h4 {
-    color: #ffffff;
-  }
-
-  .team-info p {
-    color: #bfbdbd;
-    font-size: 12px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    margin-top: 5px;
-  }
-
-
-  /*---------------------------------------
-      TESTIMONIAL
-  -----------------------------------------*/
-
-  #testimonial {
-    background: url('../images/testimonial-bg.jpg') center center no-repeat;
-    background-size: cover;
-  }
-
-  #testimonial .owl-dots {
-    position: relative;
-    top: 0;
-    right: 0;
-    justify-content: center;
-  }
-
-  #testimonial .owl-theme .owl-dots .owl-dot,
-  #testimonial .owl-theme .owl-dots .owl-dot span {
-    display: inline-block;
-  }
-
-  #testimonial .owl-theme .owl-dots .owl-dot span {
-    margin: 20px 5px;
-  }
-
-  #testimonial h2 {
-    color: #ffffff;
-  }
-
-  #testimonial p,
-  .tst-author h4,
-  .tst-author span {
-    display: inline;
-  }
-
-  #testimonial p {
-    color: #d9d9d9;
-    font-size: 20px;
-    line-height: 35px;
-  }
-
-  .tst-author {
-    margin-top: 20px;
-  }
-
-  .tst-author h4,
-  .tst-author span {
-    color: #b2b2b2;
-  }
-
-  .tst-author span {
-    margin-left: 5px;
-  }
-
-
 
   /*---------------------------------------
       CONTACT
@@ -660,7 +531,7 @@ http://www.templatemo.com/tm-515-eatery
   /* Footer Section*/
 #footer {
   background: #262626;
-  padding: 15px 0 0 0;
+  padding: 5px 0 0 0;
 }
 #footer h3 {
   color: #8eb640;
@@ -670,8 +541,9 @@ http://www.templatemo.com/tm-515-eatery
   margin-bottom: 10px;
 }
 #footer .copyrights {
-  padding: 20px 0;
+  padding: 10px 0;
   margin-top: 50px;
+  margin: auto;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#779936+0,8eb640+50 */
   background: rgb(119,153,54); /* Old browsers */
   background: -moz-linear-gradient(top, rgba(119,153,54,1) 0%, rgba(142,182,64,1) 50%); /* FF3.6-15 */
@@ -681,15 +553,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
 }
 #footer .social {
   margin: auto;
+  margin-left: auto;
   text-align: center;
 }
 #footer .social ul li {
   display: inline-block;
-  margin: 0 0px;
+  margin:  0px 20px 0px 20px;
 }
 #footer .social i.fa {
-  font-size: 30px;
-  padding: 4px;
+  font-size: 40px;
+  padding: 0px;
   color: #fff;
   transition: all 0.3s;
 }
