@@ -1,4 +1,39 @@
 /* Resume Section */
+
+
+.social {
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 10vh;
+  }
+  ul {
+	list-style-type: none;
+  }
+  ul.publication {
+	list-style-type: none;
+	padding-left: 0;
+  }
+  .year {
+	font-weight: bold;
+	font-size: 22px;
+	text-align: center;
+  }
+  .author {
+	font-style: italic;
+	font-weight: bold;
+  }
+  .publication {
+	margin-left: 20px;
+  }
+  .publication li {
+	text-align: center;
+  }
+  a {
+	color: blue;
+  }
+  
 #resume {
 	padding: 50px 0;
 	background: #f6f6f6;
