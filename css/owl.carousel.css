@@ -1,4 +1,4 @@
-/**
+/* *
  * Owl Carousel v2.2.1
  * Copyright 2013-2017 David Deutsch
  * Licensed under  ()
@@ -6,7 +6,8 @@
 /*
  *  Owl Carousel - Core
  */
-.owl-carousel {
+
+ .owl-carousel {
   display: none;
   width: 100%;
   -webkit-tap-highlight-color: transparent;
